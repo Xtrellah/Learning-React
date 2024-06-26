@@ -4,6 +4,8 @@ import Button from "./components/Button"
 import Footer from "./components/Footer"
 import State from "./components/State"
 import Counter from "./components/Counter"
+import Character from "./components/Charecter"
+import DogPic from "./components/DogPic"
 
 
 function App() {
@@ -29,9 +31,9 @@ function App() {
             
             <button onClick={handleCounter}>Ive been clicked {num} times!</button>
 
+            <Character />
 
-            <Counter />
-            <State />
+            <DogPic />
 
             <Article title='Article 1' content='Some made up content'/>
             <Article title='Article 2' content='Some more made up stuff'/>
