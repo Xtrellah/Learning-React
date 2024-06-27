@@ -9,6 +9,7 @@ import DogPic from "./components/DogPic"
 import BTCtoFreddo from "./components/BTCtoFreddo"
 import API from "./components/API"
 import Nav from "./components/Nav"
+import HomePage from "./components/HomePage"
 
 
 function App() {
@@ -24,13 +25,11 @@ function App() {
     } 
 
 
-    
-
     return (
         <div>
             <Nav />
 
-            <h1>Learning React</h1>
+            <HomePage />
             
             <button onClick={handleCounter}>Ive been clicked {num} times!</button>
 
