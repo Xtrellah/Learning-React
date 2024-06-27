@@ -1,0 +1,13 @@
+
+article {
+    border-style: solid;
+    border-color: limegreen;
+    background-color: lightgoldenrodyellow;
+
+    width: 300px;
+    height: auto;
+    padding: 10px;
+
+    align-self: center;
+
+}

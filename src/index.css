@@ -1,6 +1,20 @@
 .steam-api {
     border-style: solid;
-    border-color: red;
+    border-color: limegreen;
 
     padding: 10px;
+}
+
+
+
+.artcont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    gap: 10px;
+    padding: 25px;
 }

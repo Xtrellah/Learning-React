@@ -24,6 +24,7 @@ function App() {
       setNum((num) => num + 1)
     } 
 
+    let cloverClops = "https://preview.redd.it/whos-the-most-forgotten-skylander-and-why-is-it-clover-clops-v0-vwv468tbo4sb1.jpg?width=640&crop=smart&auto=webp&s=16dc2785bb8035d1cd3d337750900ec437e6497a"
 
     return (
         <div>
@@ -33,6 +34,12 @@ function App() {
             
             <button onClick={handleCounter}>Ive been clicked {num} times!</button>
 
+            <section className="artcont">
+                <Article image={cloverClops} title='Clover Clops 1' content='Is he real or just group gaslighting?'/>
+                <Article image={cloverClops} title='Clover Clops 2' content='Is he real or just group gaslighting?'/>
+                {/* <Article title='Article 3' content='Even more fictional stuff'/> */}
+            </section>
+
             {/* <Character /> */}
             {/* <DogPic /> */}
 
@@ -40,9 +47,7 @@ function App() {
 
             {/* <BTCtoFreddo /> */}
 
-            {/* <Article title='Article 1' content='Some made up content'/>
-            <Article title='Article 2' content='Some more made up stuff'/>
-            <Article title='Article 3' content='Even more fictional stuff'/> */}
+            
 
             <br />
             <Footer />
