@@ -29,21 +29,19 @@ function App() {
         <div>
             <h1>Learning React</h1>
             
-
-            
             <button onClick={handleCounter}>Ive been clicked {num} times!</button>
 
-            <Character />
-
-            <DogPic />
+            {/* <Character /> */}
+            {/* <DogPic /> */}
 
             <API />
 
             {/* <BTCtoFreddo /> */}
 
-            <Article title='Article 1' content='Some made up content'/>
+            {/* <Article title='Article 1' content='Some made up content'/>
             <Article title='Article 2' content='Some more made up stuff'/>
-            <Article title='Article 3' content='Even more fictional stuff'/>
+            <Article title='Article 3' content='Even more fictional stuff'/> */}
+
             <br />
             <Footer />
         </div>
