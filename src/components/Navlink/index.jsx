@@ -1,7 +1,7 @@
-function Navlink({className, link, text}) {
+function Navlink({link, text}) {
 
     return (
-        <li className={className}><a href={link}>{text}</a></li>
+        <a href={link}>{text}</a>
     )
 }
 

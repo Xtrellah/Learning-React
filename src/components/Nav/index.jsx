@@ -8,11 +8,11 @@ function Nav() {
     return (
         <nav>
             <ul>
-                <Navlink link={linkvar} text="Home" />
-                <Navlink link={linkvar} text="Here" />
-                <Navlink link={linkvar} text="There" />
-                <Navlink link={linkvar} text="Everywhere" />
-                <Navlink className="login" link={linkvar} text="Login" />
+                <li><Navlink link={linkvar} text="Home" /></li>
+                <li><Navlink link={linkvar} text="Here" /></li>
+                <li><Navlink link={linkvar} text="There" /></li>
+                <li><Navlink link={linkvar} text="Everywhere" /></li>
+                <li className="login"><Navlink  link={linkvar} text="Login" /></li>
             </ul>
         </nav>
     )
