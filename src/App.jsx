@@ -8,6 +8,7 @@ import Character from "./components/Charecter"
 import DogPic from "./components/DogPic"
 import BTCtoFreddo from "./components/BTCtoFreddo"
 import API from "./components/API"
+import Nav from "./components/Nav"
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
 
     return (
         <div>
+            <Nav />
+
             <h1>Learning React</h1>
             
             <button onClick={handleCounter}>Ive been clicked {num} times!</button>
@@ -34,7 +37,7 @@ function App() {
             {/* <Character /> */}
             {/* <DogPic /> */}
 
-            <API />
+            {/* <API /> */}
 
             {/* <BTCtoFreddo /> */}
 
