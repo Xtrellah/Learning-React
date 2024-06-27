@@ -1,0 +1,12 @@
+footer {
+    border-style: solid;
+    border-color: limegreen;
+    background-color: lightgoldenrodyellow;
+
+    padding: 5px 25px 5px 25px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}

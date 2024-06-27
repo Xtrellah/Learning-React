@@ -1,10 +1,15 @@
+import './index.css';
+
 import Button from "../Button"
 
 function Footer() {
     return (
         <footer>
-            <p>Copyright 2024</p>
-            <Button content="Sign up to our newsletter" />
+            <div>
+                <h2>Clover Clops inc.</h2>
+                <Button content="Sign up to our newsletter" />
+            </div>
+            <p>Clover Clops &copy; Copyright 2024</p>
         </footer>
     )
 }
