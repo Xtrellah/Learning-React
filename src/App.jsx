@@ -17,8 +17,8 @@ function App() {
 
     const [num, setNum] = useState(0)
  
-    function handleClick() {
-        console.log('cllicked')
+    function handleSecret() {
+        console.log('Clover Clops í̷̬̈́́͐͆̔͝͠ş̶̧̹̳͖̙̦̘̃̔̈́̿͝͝ ̶̰̥̤̫̭̲̲̞̿͊a̷̱̲̼͔̳̝͌̋́̅ͅ ̶̡̠̣̪̝͍̭̟̰̿͛̒̆͛̂͋̀͘ḽ̵͆͜i̷̡̗̻̯̭͙͚̰͗è̸̢̹̗̪͈̺̀͊̀̍̽̃̂͘')
     }
 
     function handleCounter() {
@@ -36,6 +36,8 @@ function App() {
             
             <button onClick={handleCounter}>Ive been clicked {num} times!</button>
 
+            <button onClick={handleSecret}>Click me for a secret...</button>
+
             <section className="artcont">
                 <Article image={cloverClops} title='Clover Clops 1' content='Is he real or just group gaslighting?'/>
                 <Article image={cloverClops} title='Clover Clops 2' content='Is he real or just group gaslighting?'/>
@@ -48,8 +50,6 @@ function App() {
             {/* <API /> */}
 
             {/* <BTCtoFreddo /> */}
-
-            
 
             <br />
             <Footer />
