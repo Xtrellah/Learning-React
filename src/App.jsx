@@ -10,6 +10,7 @@ import BTCtoFreddo from "./components/BTCtoFreddo"
 import API from "./components/API"
 import Nav from "./components/Nav"
 import HomePage from "./components/HomePage"
+import Banner from "./components/Banner"
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
 
     return (
         <div>
+            <Banner />
             <Nav />
 
             <HomePage />

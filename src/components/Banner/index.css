@@ -1,0 +1,12 @@
+.banner {
+    border-style: solid;
+    border-bottom: none;
+    border-color: limegreen;
+    background-color: lightgoldenrodyellow;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 25px 0px 25px;
+    overflow: hidden;
+    
+}

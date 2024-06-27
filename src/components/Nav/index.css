@@ -1,6 +1,6 @@
 nav {
     border-style: solid;
-    border-color: aqua;
+    border-color: limegreen;
 }
 
 ul {
@@ -8,7 +8,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: aliceblue;
+    background-color: lightgoldenrodyellow;
 }
 
 li {
@@ -21,12 +21,12 @@ li {
 
 li a {
   display: block;
-  color: navy;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
   
 li a:hover {
-   background-color: lightblue;
+   background-color: lightgreen;
 }

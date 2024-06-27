@@ -1,15 +1,18 @@
+import Navlink from "../Navlink"
 import './index.css';
 
 function Nav() {
 
+    let linkvar = ""
+    
     return (
         <nav>
             <ul>
-                <li><a href="csgostash.com">Home</a></li>
-                <li><a href="">Here</a></li>
-                <li><a href="">There</a></li>
-                <li><a href="">Everywhere</a></li>
-                <li className="login"><a href="">Login</a></li>
+                <Navlink link={linkvar} text="Home" />
+                <Navlink link={linkvar} text="Here" />
+                <Navlink link={linkvar} text="There" />
+                <Navlink link={linkvar} text="Everywhere" />
+                <Navlink className="login" link={linkvar} text="Login" />
             </ul>
         </nav>
     )

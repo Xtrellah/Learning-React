@@ -6,7 +6,6 @@
 }
 
 
-
 .artcont {
     display: flex;
     flex-direction: row;
@@ -17,4 +16,13 @@
 
     gap: 10px;
     padding: 25px;
+}
+
+
+button {
+    background-color: lightgoldenrodyellow;
+    border-style: solid;
+    border-color: limegreen;
+    border-radius: 10px;
+    padding: 10px;
 }
