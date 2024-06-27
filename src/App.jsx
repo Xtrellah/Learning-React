@@ -6,6 +6,8 @@ import State from "./components/State"
 import Counter from "./components/Counter"
 import Character from "./components/Charecter"
 import DogPic from "./components/DogPic"
+import BTCtoFreddo from "./components/BTCtoFreddo"
+import API from "./components/API"
 
 
 function App() {
@@ -34,6 +36,10 @@ function App() {
             <Character />
 
             <DogPic />
+
+            <API />
+
+            {/* <BTCtoFreddo /> */}
 
             <Article title='Article 1' content='Some made up content'/>
             <Article title='Article 2' content='Some more made up stuff'/>
